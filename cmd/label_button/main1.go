@@ -18,6 +18,7 @@ func main() {
 	label := widget.NewLabel("Hello World!")
 	label2 := widget.NewLabel("Label 2!")
 
+	// поле для воода текста
 	entry := widget.NewEntry()
 
 	// кнопка с названием и действием
