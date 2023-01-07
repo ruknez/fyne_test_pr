@@ -23,6 +23,12 @@ func main() {
 		fmt.Println("Do save")
 	})
 
+	// дополнительное меню появляющееся по наводу мышы
+	save_item.ChildMenu = fyne.NewMenu(
+		"",
+		fyne.NewMenuItem("Child meny 1", nil),
+	)
+
 	// нет смысла fyne сам добавит такую кнопку
 	exit_item := fyne.NewMenuItem("exit_item", func() {
 		os.Exit(1)
