@@ -43,5 +43,5 @@ func main() {
 
 	w.SetContent(hSplit)
 	w.ShowAndRun()
-	a.Run()
+	//a.Run()
 }
